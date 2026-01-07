@@ -40,11 +40,15 @@ body:
     validations:
       required: false
 
-  - type: checkboxes
+  - type: textarea
     id: done
     attributes:
       label: Done When
-      options:
-        - label: Acceptance condition met
-        - label: Artifact/link exists
-        - label: Reviewed or validated
+      description: |
+        Define the acceptance criteria for this issue.
+        Use a checklist if helpful, for example:
+        - [ ] Acceptance condition met
+        - [ ] Artifact/link exists
+        - [ ] Reviewed or validated
+    validations:
+      required: false
