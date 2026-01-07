@@ -24,19 +24,7 @@ body:
     attributes:
       label: Context
       description: |
-        Assumptions, constraints, data limitations, or helpful links.
-    validations:
-      required: false
-
-  - type: textarea
-    id: dependencies
-    attributes:
-      label: Dependencies
-      description: |
-        List issue numbers if applicable.
-        Blocked by: #___
-        Unblocks: #___
-        Related: #___
+        Assumptions, constraints, data limitations, related issues, or helpful links.
     validations:
       required: false
 
