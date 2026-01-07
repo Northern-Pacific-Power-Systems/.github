@@ -1,6 +1,6 @@
 name: General Issue
 description: Track work with clear goals, rationale, and dependencies
-title: "[Issue]: "
+title: " "
 labels: []
 body:
   - type: textarea
