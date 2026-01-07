@@ -1,0 +1,50 @@
+name: General Issue
+description: Track work with clear goals, rationale, and dependencies
+title: "[Issue]: "
+labels: []
+body:
+  - type: textarea
+    id: goal
+    attributes:
+      label: Goal
+      description: One sentence describing the concrete outcome.
+    validations:
+      required: true
+
+  - type: textarea
+    id: why
+    attributes:
+      label: Why It Matters
+      description: Why this is important (decision, milestone, or downstream work it enables).
+    validations:
+      required: true
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: |
+        Assumptions, constraints, data limitations, or helpful links.
+    validations:
+      required: false
+
+  - type: textarea
+    id: dependencies
+    attributes:
+      label: Dependencies
+      description: |
+        List issue numbers if applicable.
+        Blocked by: #___
+        Unblocks: #___
+        Related: #___
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: done
+    attributes:
+      label: Done When
+      options:
+        - label: Acceptance condition met
+        - label: Artifact/link exists
+        - label: Reviewed or validated
