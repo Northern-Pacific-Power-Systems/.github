@@ -1,0 +1,5 @@
+- name: draft
+  color: ededed
+  description: Work in progress / not ready for review
+
+  // Decide whether to implement: https://chatgpt.com/s/t_698b78080a10819191cc41fd51c741d3
