@@ -1,3 +1,5 @@
+# label sync workflow
+
 name: Sync labels to all repos
 
 on:
