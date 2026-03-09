@@ -43,11 +43,10 @@
 
 - name: wontfix
   color: ffffff
-  description: This will not be worked on
+  description: This will not be worked on 
 
 - name: unplanned
   color: e99695
-  description: Task was not planned as of Monday 
-
+  description: Task was not planned as of Monday
   
 
